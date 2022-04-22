@@ -1,0 +1,24 @@
+// Dibuja una letra con asteriscos:
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout << "La letra B en * es asi: "<<endl;
+	cout << ("\n*******");
+	cout << ("\n*       *");
+	cout<<("\n*       *");
+	cout<<("\n*       *");
+	cout<<("\n*******");
+	cout<<("\n*       *");
+	cout<<("\n*       *");
+	cout<<("\n*       *");
+	cout<<("\n*******");
+
+
+
+
+
+	return 0;
+}
