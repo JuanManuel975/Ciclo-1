@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float producto, iva = 0.18,preciofinal=0,productomasiva=0;
+
+    cout << "\nIngrese el precio del producto: "; cin >> producto;
+    productomasiva = producto * iva;
+    preciofinal = producto + productomasiva;
+
+
+    cout << "\nEl precio sera: " << preciofinal;
+
+  
+
+
+
+
+    return 0;
+}
