@@ -10,6 +10,8 @@ int main()
 {
     int a, b, c, dis;
     float x1,x2;
+    cout<<"La plantilla es ax^2 + bx + c = 0";
+    
     cout << "\nPonga el valor A: "; cin >> a;
     cout << "\nPonga el valor B: "; cin >> b;
     cout << "\nPonga el valor c: "; cin >> c;
