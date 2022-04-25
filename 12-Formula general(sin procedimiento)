@@ -1,0 +1,26 @@
+/*  Haga la formula general. */
+
+#include <iostream>
+#include<math.h>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, dis;
+    float x1,x2;
+    cout << "\nPonga el valor A: "; cin >> a;
+    cout << "\nPonga el valor B: "; cin >> b;
+    cout << "\nPonga el valor c: "; cin >> c;
+    dis = (b * b - (4 * (a * c)));
+    if (dis < 0) {
+        cout << "\nError de discriminate";
+            return 1;
+    }
+    x1 = (-b - (sqrt(dis))) / (2 * a);
+    x2 = (-b + (sqrt(dis))) / (2 * a);
+    cout << "\nEl valor en negativo sera: " << x1;
+    cout << "\nEl valor en positivo sera: " << x2;
+    return 0;
+}
