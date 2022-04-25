@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float numeroa, numerob,expresion;
+
+    cout << "\nIngrese su valor A: "; cin >> numeroa;
+    cout << "\nIngrese su valor B: "; cin >> numerob;
+
+    expresion = (numeroa / numerob) + 1;
+
+    cout << "\nLa respuesta de la expresion es: "<< expresion;
+
+    return 0;
+}
+
