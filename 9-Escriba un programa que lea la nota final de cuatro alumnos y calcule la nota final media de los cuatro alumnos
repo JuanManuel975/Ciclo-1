@@ -1,0 +1,22 @@
+/* Escriba un programa que lea la nota final de cuatro alumnos y calcule la nota final media de los cuatro alumnos.. */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    float alumno1,alumno2,alumno3,alumno4,notafinal;
+
+    cout<<"\nCual fue la nota del alumno A: ";cin>>alumno1;
+    cout<<"\nCual fue la nota del alumno B: ";cin>>alumno2;
+    cout<<"\nCual fue la nota del alumno C: ";cin>>alumno3;
+    cout<<"\nCual fue la nota del alumno D: ";cin>>alumno4;
+
+    notafinal = (alumno1 + alumno2 + alumno3 + alumno4) / 4;
+
+    cout << "\nEl promedio seria: " << notafinal;
+
+
+    return 0;
+}
