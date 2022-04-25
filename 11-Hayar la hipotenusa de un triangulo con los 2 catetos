@@ -1,0 +1,31 @@
+/*  Escriba un programa que lea de la entrada estándar los dos catetos de un triángulo rectángulo y escriba en la salida estándar su hipotenusa.. */
+
+#include <iostream>
+#include<math.h>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+    double catetoA, catetoB,sumadecatetos, hipotenusa;
+
+    cout << "\nPonga el cateto A: "; cin >> catetoA;
+    cout << "\nPonga el cateto B: "; cin >> catetoB;
+
+    catetoA = pow( catetoA, 2);
+    catetoB = pow(catetoB, 2);
+    sumadecatetos = catetoA + catetoB;
+
+    hipotenusa = sqrt(catetoA+catetoB);
+
+    cout << "\nCateto A al cuadrado es: " << catetoA;
+    cout << "\nCateto B al cuadrado es: " << catetoB;
+    cout << "\nLa suma de los catetos es: " << sumadecatetos;
+    cout << "\nLa hipotenusa es: " << hipotenusa;
+    cout << "\n";
+
+
+    return 0;
+}
+
