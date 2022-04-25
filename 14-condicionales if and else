@@ -1,0 +1,22 @@
+
+#include <iostream>                  /*if (condicion) {
+#include<math.h>                        instruccion 1  // se aplicara siempre que se cumpla la "condicion"
+#include<stdio.h>		             }         //en caso que no se cumpla la "condicion" se hara lo que pongamos dentro                          
+	                                  else {     
+	                                     instruccion 2
+	                                 }*/   	
+using namespace std;
+
+int main(){
+	int numero, dato = 5;
+
+	cout << "Digite un numero: "; cin >> numero;
+	if (numero == dato) {
+		cout << "El numero es 5:";
+	}
+	else { 
+		cout << "El numero es diferente a 5"; 
+	}
+
+		return 0;
+}
