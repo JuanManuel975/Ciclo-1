@@ -1,0 +1,23 @@
+/* Ejercicio : Escribe la siguiente expresión como expresión en C++: (a+(b/c))/(d+(e/f)) */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    float numeroa, numerob, numeroc, numerod, numeroe, numerof,expresionfinal = 0;
+    cout << "\nIngrese su valor A : "; cin >> numeroa;
+    cout << "\nIngrese su valor B : "; cin >> numerob;
+    cout << "\nIngrese su valor C : "; cin >> numeroc;
+    cout << "\nIngrese su valor D : "; cin >> numerod;
+    cout << "\nIngrese su valor E : "; cin >> numeroe;
+    cout << "\nIngrese su valor F : "; cin >> numerof;
+
+    expresionfinal = (numeroa + (numerob / numeroc)) / (numerod + (numeroe / numerof));
+
+    cout << "\nEl resultado sera: " << expresionfinal;
+
+
+    return 0;
+}
