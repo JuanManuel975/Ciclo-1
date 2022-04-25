@@ -1,0 +1,26 @@
+/* La calificación final de un estudiante es la media ponderada de tres notas: la nota de prácticas que cuenta un 30% del total, 
+la nota teórica que cuenta un 60% y la nota de participación que cuenta el 10% restante. 
+Escriba un programa que lea de la entrada estándar las tres notas de un alumno y escriba en la salida estándar su nota final.. */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float nota1, nota2, nota3, notafinal = 0;
+
+    cout << "\Introduzca cuanta nota tiene en nota de practicas: "; cin >> nota1;
+    cout << "\Introduzca cuanta nota tiene en nota teorica:"; cin >> nota2;
+    cout << "\Introduzca cuanta nota tiene en nota de participacion:"; cin >> nota3;
+
+    nota1 *= 0.30;
+    nota2 *= 0.60;
+    nota3 *= 0.10;
+
+    notafinal = nota1 + nota2 + nota3;
+    cout << "Nota final: " << notafinal;
+
+
+
+    return 0;
+}
