@@ -14,7 +14,7 @@ int main()
 
     expresion = (numeroa + numerob) / (numeroc + numerod);
 
-    cout << "\nLa respuesta de la expresion es: "<< expresion;
+    cout << "\nLa respuesta de la expresion es: "<< expresion<<endl;
 
     return 0;
 }
