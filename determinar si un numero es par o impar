@@ -1,0 +1,29 @@
+/*  Escribir un programa en C++ que teniendo como dato de entrada un número entero,
+determine si el número es par o impar.
+Ejemplo
+Ingrese un número entero: 364
+Es un número par */
+
+#include <iostream>
+#include<math.h>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+    int numero,resultado;
+
+    cout << "\nIntroduzca un numero entero: "; cin >> numero;
+
+    resultado = numero % 2;
+
+    if (resultado>0) {
+        cout << "No es numero par";
+        
+    }
+    else {
+        cout << "El numero es par";
+    }
+    return 0;
+}
