@@ -1,0 +1,29 @@
+/* . Si se tiene el peso de dos animales: dinosaurio y un elefante, escribir un programa en C++
+que permita calcular cuál de los dos tiene el peso mayor en un determinado momento.
+Ejemplo:
+Ingrese el peso del dinosaurio: 120.50
+Ingrese el peso del elefante: 255.50
+El elefante pesa más que el dinosaurio*/
+
+#include <iostream>
+#include<math.h>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+    float dinosaurio,elefante;
+
+    cout << "\nIntroduzca el peso de el dinosaurio: "; cin >> dinosaurio;
+    cout << "\nIntroduzca el peso de el elefante: "; cin >> elefante;
+
+    if (elefante > dinosaurio) {
+        cout << "\nEl elefante pesa mas que el dinosaurio";
+    }
+    else {
+        cout << "\nEl dinosaurio pesa mas que el elefante";
+    }
+   
+    return 0;
+}
